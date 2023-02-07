@@ -5,15 +5,15 @@ sum=0
 while tickets !=0:
     age = int(input("Введите возраст участника"))
     if 0 <= age < 18:
-        print('ticket free')
+        print('Билет бесплатный')
     elif 18 <= age < 25:
         sum +=990
-        print('Costs 990')
+        print('Стоимость 990')
     elif 25 <= age <= 100:
         sum +=1390
-        print('Costs 1390')
+        print('Стоимость 1390')
     else:
-        print('некорректные данные')
+        print('Некорректные данные')
         continue
     tickets -=1
 
